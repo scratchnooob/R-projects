@@ -30,5 +30,6 @@ a[21,1]
 which.max(abs(model1$residuals))
 a[18,1]
 #mean of covariate and mean of response
-mean(x)
-mean(y)
+xbar<-mean(x)
+ybar<-mean(y)
+points.default(xbar,ybar,col="red", pch=21, cex=1.5) #clearly xbar & ybar lie on Linear Regression
